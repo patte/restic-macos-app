@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.USERNAME.restic-backup</string>
+
+    <!-- Launch the Platypus app binary in Applications -->
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Applications/restic-backup.app/Contents/MacOS/restic-backup</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Applications/restic-backup.app/Contents/Resources</string>
+
+    <!-- Run daily at 20:00 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>20</integer>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
+  </dict>
+</plist>

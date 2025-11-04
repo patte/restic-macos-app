@@ -1,0 +1,48 @@
+$HOME/.cache
+$HOME/.dbus
+$HOME/.cargo
+$HOME/.rustup
+$HOME/.cursor
+$HOME/.local/share/containers/podman
+$HOME/.npm
+$HOME/.bun
+$HOME/.nvm
+$HOME/Library/pnpm
+$HOME/.ollama
+$HOME/.pyenv
+$HOME/.orbstack
+$HOME/.hasura
+$HOME/.kenv
+$HOME/.knode
+$HOME/.docker/buildx
+$HOME/Library/Caches
+$HOME/Library/Containers/*/Data/Library/Caches
+$HOME/Library/Logs
+$HOME/Library/Safari/Favicon Cache
+$HOME/.Trash
+$HOME/Library/Developer/Xcode/DerivedData
+$HOME/Library/Developer/CoreSimulator
+$HOME/Library/Developer/Xcode/Archives
+$HOME/Library/Developer/Xcode/iOS DeviceSupport
+$HOME/Library/Application Support/CrashReporter
+$HOME/Library/Group Containers/HUAQ24HBR6.dev.orbstack/data
+$HOME/Library/Mobile Documents
+$HOME/Library/Application Support/Code/Cache
+
+node_modules
+__pycache__
+.DS_Store
+*.tmp
+*.swp
+.Trash
+.Spotlight-V100
+.fseventsd
+
+# patte's excludes
+$HOME/Downloads
+$HOME/nobackup
+$HOME/mnt
+$HOME/Music
+$HOME/OrbStack
+$HOME/Pictures
+$HOME/src/1BRC-rs/measurements-1000000000.txt
