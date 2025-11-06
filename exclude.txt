@@ -1,6 +1,8 @@
 $HOME/.cache
 $HOME/.dbus
-$HOME/.cargo
+$HOME/.cargo/registry/**
+$HOME/.cargo/git/**
+$HOME/.cargo/bin/**
 $HOME/.rustup
 $HOME/.cursor
 $HOME/.local/share/containers/podman
