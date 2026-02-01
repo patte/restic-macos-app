@@ -10,8 +10,7 @@ Uses the installed restic binary on the system, making it easy to update restic 
 
 1. Prepare
 - Install restic: `brew install restic`
-- Download [`keymaster.swift`](https://github.com/johnthethird/keymaster/blob/master/keymaster.swift)
-- Build `swiftc keymaster.swift`
+- Download [`keymaster.swift`](https://github.com/johnthethird/keymaster/blob/master/keymaster.swift) and build it `swiftc keymaster.swift`
 - Install Platypus: `brew install --cask platypus`
 
 2. adapt [`exclude.txt`](./exclude.txt) to your needs
